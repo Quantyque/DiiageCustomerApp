@@ -4,7 +4,7 @@ using Caltec.StudentInfoProject.Persistence.Initializer;
 using Caltec.Dependency;
 using Microsoft.EntityFrameworkCore;
 
-string connectionString = @"Server=.\SQLExpress;Database=AppCustomerDiiageDbe;Trusted_Connection=Yes;";
+string connectionString = @"Server=.\(localdb)\Local;Database=AppCustomerDiiageDbe;Trusted_Connection=Yes;";
 
 var builder = WebApplication.CreateBuilder(args);
 
