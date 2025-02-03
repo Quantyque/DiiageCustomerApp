@@ -3,8 +3,9 @@ using Caltec.StudentInfoProject.Persistence;
 using Caltec.StudentInfoProject.Persistence.Initializer;
 using Caltec.Dependency;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics.Metrics;
 
-string connectionString = @"Server=.\(localdb)\Local;Database=AppCustomerDiiageDbe;Trusted_Connection=Yes;";
+string connectionString = @"Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;";
 
 var builder = WebApplication.CreateBuilder(args);
 
